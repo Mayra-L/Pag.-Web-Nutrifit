@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Son scripts para cargar iconos en mi pagina, provenientes de ionicons-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NutriFit</title>
+    <link rel="icon" type="image/svg" href="img/Logo NF.svg"> <!--Enlazamos el icono que se ve en la pestaña del navegador-->
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!--Link CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> <!--Carga los archivos bootstrap-->
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css"><!--Font Awesome para iconos-->
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css"><!--Para la creación de carrusel-->
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"><!--Es para mostrar contenido tipo lightbox para imagenes y videos-->
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"> <!--Es un plugin para crear menus de navegacion de manera responsiva-->
+    <link rel="stylesheet" href="css/style.css" type="text/css"> <!--Enlazamos nuestros estilos-->
+</head>
+
+<body>
+    <!-- Animación que se muestre antes que la pagina cargue -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header-->
+    <header class="encabezado">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="img/LogoSmall.png" alt="Logo de la pagina">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        <li class="activo"><a href="./index.html">Inicio</a></li>
+                        <li><a href="./nosotros.html">Sobre mi</a></li>
+                        <li><a href="./consultas.html">Consultas</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                <a href="" class="btn-icon" title="Cuenta"><ion-icon name="person-circle"></ion-icon></button></a>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header-->
+
+ <!-- Seccion con fondo de color -->
+    <section class="breadcrumb-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-text">
+                        <h2>Contacto</h2>
+                        <div class="breadcrumb-option">
+                            <a href="./index.html"><i class="fa fa-home"></i> Inicio</a>
+                            <span>Contacto</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN -->
+    <!-- Breadcrumb Section End -->
+
+    <!-- Mapa -->
+    <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3732.249255672659!2d-103.37781562498333!3d20.70010059898627!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8428ae36afede3e7%3A0x946a8c5d19556cdf!2sAv.%20de%20las%20Am%C3%A9ricas%2C%20Jalisco!5e0!3m2!1ses!2smx!4v1749191244214!5m2!1ses!2smx" 
+        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+    <!-- fin -->
+
+    <!-- Seccion Contacto-->
+    <section class="contact-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="contact-info">
+                        <h4>Contactanos</h4>
+                        <div class="contact-address">
+                            <div class="ca-widget">
+                                <div class="cw-icon">
+                                    <img src="img/icon/ubicacion.png" alt="">
+                                </div>
+                                <div class="cw-text">
+                                    <h5>Nuestra Ubicacion</h5>
+                                    <p>Av. de las americas 40, Country Club 48730</p>
+                                </div>
+                            </div>
+                            <div class="ca-widget">
+                                <div class="cw-icon">
+                                    <img src="img/icon/telefono.png" alt="">
+                                </div>
+                                <div class="cw-text">
+                                    <h5>Telefono:</h5>
+                                    <p>+52 331 591 8246</p>
+                                </div>
+                            </div>
+                            <div class="ca-widget">
+                                <div class="cw-icon">
+                                    <img src="img/icon/correo.png" alt="">
+                                </div>
+                                <div class="cw-text">
+                                    <h5>Correo Electronico</h5>
+                                    <p>nutrifit@ gmail.com</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <div class="contact-form">
+                        <h4>Dudas o comentarios</h4>
+                        <form action="#">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Nombre">
+                                </div>
+                                <div class="col-lg-6">
+                                    <input type="text" placeholder="Correo">
+                                </div>
+                                <div class="col-lg-12">
+                                    <textarea placeholder="Comentarios"></textarea>
+                                    <button type="submit">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN-->
+
+<!-- Footer  -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="opcion-contacto">
+                        <span>Telefono</span>
+                        <p>(52) 331 591 8246</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="opcion-contacto">
+                        <span>Dirección</span>
+                        <p>Av. de las Américas 40, Country club 48730</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="opcion-contacto">
+                        <span>Email</span>
+                        <p>nutrifit@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-option set-bg" data-setbg="img/footer.jpg">
+                <div class="so-text">
+                    <h4>Contactanos por correo electronico</h4>
+                    <p>para recibir más información </p>
+                </div>
+                <form action="#" class="subscribe-form">
+                    <input type="text" placeholder="Ingresa tu correo">
+                    <button type="submit"><ion-icon name="send"></ion-icon></button>
+                </form>
+            </div>
+            <div class="copyright-text">
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Politicas de privacidad</a></li>
+                </ul>
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> |Derechos reservados</p></p>
+                <div class="footer-social">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></i></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- fin -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

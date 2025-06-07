@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="es">
+<!--Son scripts para cargar iconos en mi pagina, provenientes de ionicons-->
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NutriFit</title>
+    <link rel="icon" type="image/svg" href="img/Logo NF.svg"> <!--Enlazamos el icono que se ve en la pestaña del navegador-->
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap"
+        rel="stylesheet">
+
+    <!--Link CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"> <!--Carga los archivos bootstrap-->
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css"><!--Es para mostrar contenido tipo lightbox para imagenes y videos-->
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css"> <!--Es un plugin para crear menus de navegacion de manera responsiva-->
+    <link rel="stylesheet" href="css/style.css" type="text/css"> <!--Enlazamos nuestros estilos-->
+</head>
+
+<body>
+    <!-- Animación que se muestre antes que la pagina cargue -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header-->
+    <header class="encabezado">
+        <div class="container">
+            <div class="logo">
+                <a href="./index.html">
+                    <img src="img/LogoSmall.png" alt="Logo de la pagina">
+                </a>
+            </div>
+            <div class="nav-menu">
+                <nav class="mainmenu mobile-menu">
+                    <ul>
+                        <li class="activo"><a href="./index.html">Inicio</a></li>
+                        <li><a href="./nosotros.html">Sobre mi</a></li>
+                        <li><a href="./consultas.html">Consultas</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./contacto.html">Contacto</a></li>
+                    </ul>
+                </nav>
+                <a href="" class="btn-icon" title="Cuenta"><ion-icon name="person-circle"></ion-icon></button></a>
+            </div>
+            <div id="mobile-menu-wrap"></div>
+        </div>
+    </header>
+    <!-- Header-->
+
+    <!-- Seccion de Inicio -->
+    <section class="seccion-inicio set-bg" data-setbg="img/descarga.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="seccion-texto">
+                        <span>COMIENZA TU ERA FITNESS HOY </span>
+                        <h1>NUTRICION DEPORTIVA</h1>
+                        <a href="nosotros.html" class="primary-btn">Mas información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--FIn -->
+
+    <!-- Modalidad -->
+    <section class="seccion-modalidad spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="about-pic">
+                        <img src="img/customer-service.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="texto-modalidad">
+                        <h2>Modalidad 100% en línea o Hibrida </h2>
+                        <a href="consultas.html" class="primary-btn">Más información</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Modalidad FIN  -->
+     
+    <!-- Objetivos -->
+    <section class="objetivo-section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="objetivos-img">
+                        <img src="img/running.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="objetivo-img bg-green">
+                                    <img src="img/objetivos/persona.png" alt="">
+                                    <h4>Recomposición Corporal</h4>
+                                    <p>Pierde grasa a la vez que aumentas músculo</p>
+                                </div>
+                                <div class="objetivo-img bg-gray pd-b">
+                                    <img src="img/objetivos/brazo.png" alt="">
+                                    <h4>Ganar Músculo</h4>
+                                    <p>Aumenta tu masa muscular llevando tu entrenamiento al siguiente nivel</p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="objetivo-img">
+                                    <img src="img/objetivos/gym-equipment.png" alt="">
+                                    <h4>Resistencia</h4>
+                                    <p>Mejora tu resistencia cardiaca</p>
+                                </div>
+                                <div class="objetivo-img pd-b">
+                                    <img src="img/objetivos/cuerpo-de-mujer.png" alt="">
+                                    <h4>Pérdida de peso</h4>
+                                    <p>Disminuye tu porcentaje de grasa, adaptando el entrenamiento a tus necesidades</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>  
+    <!-- FIN-->
+    <!-- CASOS DE EXITO-->
+    <section class="seccion-resultados spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="seccion-titulo">
+                        <h2>CASOS DE ÉXITO</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="resultado-img">
+                        <img src="img/cambio/jose.png" alt="">
+                        <div class="texto-nombre">
+                            <h5>José M.</h5>
+                            <p>Fue adicto a la comida basura y esto le llevó a tener sobrepeso y un mal estilo de vida.
+                                No fue un camino fácil, pero empezó a entrenar en casa y aprender a comer de la manera correcta. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="resultado-img">
+                        <img src="img/cambio/cambio.png" alt="">
+                        <div class="texto-nombre">
+                            <h5>Ruben M.</h5>
+                            <p>No se sentía a gusto con su forma física y su salud empeoró muchísimo a causa de sus hábitos. 
+                            A día de hoy Rubén nos cuenta que "se ha convertido en una persona activa que disfruta su estilo de vida". </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="resultado-img">
+                        <img src="img/cambio/maria.png" alt="">
+                        <div class="texto-nombre">
+                            <h5>María P.</h5>
+                            <p>"Nunca me he sentido a gusto mostrando mi cuerpo, pero después de mucho trabajo,
+                                no sólo haciendo ejercicio, sino también estando conmigo misma, he dejado de compararme con los demás"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN -->
+
+<!-- Banner -->
+    <section class="banner-section set-bg" data-setbg="img/banner-bg.jpg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="banner-text">
+                        <h2>¿Que hacemos?</h2>
+                        <p>Ponemos la nutrición deportiva al alcance de todos. Estamos aquí para activar todas las intenciones saludables, 
+                            seas quien seas o vayas donde vayas.
+                            Nos comprometemos a ser campeones para mejorar. Por eso empezamos. Por eso nunca pararemos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Banner-->
+
+
+    <!-- Servicios -->
+    <section class="servicios  spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="seccion-titulo">
+                        <h2>Servicios</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="servicio-item">
+                        <div class="mi-title">
+                            <h4>Plan Nutricional</h4>
+                        </div>
+                        <img src="img/dieta.png" alt="">
+                        <ul>
+                            <li>
+                                <p>Diseño individualizado </p>
+                            </li>
+                            <li>
+                                <p>basado en objetivos y gustos</p> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="servicio-item">
+                        <div class="mi-title">
+                            <h4>Rutina de ejercicio </h4>
+                        </div>
+                        <img src="img/maquina-de-entrenamiento.png" alt="">
+                        <ul>
+                            <li>
+                                <p>Rutina personalizada</p>
+                            </li>
+                            <li>
+                                <p>para hacer en casa o en gimnasio </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="servicio-item">
+                        <div class="mi-title">
+                            <h4>Examen antropometrico</h4>
+                        </div>
+                        <img src="img/cinta-metrica.png" alt="">
+                        <ul>
+                            <li>
+                                <p>Mediciones para evaluar estado</p>
+                            </li>
+                            <li>
+                                <p>nutricional y composición corporal </p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Servicios Fin -->
+
+    <!--Consultas -->
+    <section class="seccion-registro spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8">
+                    <div class="registro-texto">
+                        <div class="seccion-titulo">
+                            <h2>Agenda tu cita hoy</h2>
+                            <p>Completa el formulario y nosotros nos comunicamos</p>
+                        </div>
+                        <form action="#" class="registro-formulario">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <label for="name">Nombre Completo</label>
+                                    <input type="text" id="name">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="email">Correo electronico</label>
+                                    <input type="text" id="email">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="last-name">Horario y fecha de consulta</label>
+                                    <input type="text" id="last-name">
+                                </div>
+                                <div class="col-lg-6">
+                                    <label for="mobile">Telefono</label>
+                                    <input type="text" id="mobile">
+                                </div>
+                            </div>
+                            <button type="submit" class="register-btn">Inicia hoy</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="registro-img">
+                        <img src="img/sport.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN -->
+
+    <!-- Blog -->
+    <section class="latest-blog-section spad">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="seccion-titulo">
+                        <h2>Nuestro Blog </h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-item">
+                        <img src="img/blog/blog-5.jpg" alt="">
+                        <div class="blog-widget">
+                            <div class="bw-date">Noviembre 17, 2019</div>
+                            <a href="#" class="tag">#Consejos</a>
+                        </div>
+                        <h4><a href="#">3 Consejos para ponerse en forma y alcanzar tus objetivos</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-item">
+                        <img src="img/blog/blog-4.jpg" alt="">
+                        <div class="blog-widget">
+                            <div class="bw-date">Noviembre 13, 2021</div>
+                            <a href="#" class="tag">#Fitness</a>
+                        </div>
+                        <h4><a href="#">¿Se puede ganar músculo y perder grasa a la vez?</a></h4>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="single-blog-item">
+                        <img src="img/blog/blog-8.jpg" alt="">
+                        <div class="blog-widget">
+                            <div class="bw-date">Julio 21, 2022</div>
+                            <a href="#" class="tag">#Duda</a>
+                        </div>
+                        <h4><a href="#">Eliminar grasa localizada. ¿Es posible?</a></h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FIN -->
+    <!-- Footer  -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="opcion-contacto">
+                        <span>Telefono</span>
+                        <p>(52) 331 591 8246</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="opcion-contacto">
+                        <span>Dirección</span>
+                        <p>Av. de las Américas 40, Country club 48730</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="opcion-contacto">
+                        <span>Email</span>
+                        <p>nutrifit@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <div class="subscribe-option set-bg" data-setbg="img/footer.jpg">
+                <div class="so-text">
+                    <h4>Contactanos por correo electronico</h4>
+                    <p>para recibir más información </p>
+                </div>
+                <form action="#" class="subscribe-form">
+                    <input type="text" placeholder="Ingresa tu correo">
+                    <button type="submit"><ion-icon name="send"></ion-icon></button>
+                </form>
+            </div>
+            <div class="copyright-text">
+                <ul>
+                    <li><a href="#">Términos y condiciones</a></li>
+                    <li><a href="#">Politicas de privacidad</a></li>
+                </ul>
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> |Derechos reservados</p></p>
+                <div class="footer-social">
+                    <a href="#"><ion-icon name="logo-facebook"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-whatsapp"></ion-icon></i></a>
+                    <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+                    <a href="#"><ion-icon name="logo-tiktok"></ion-icon></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer Section End -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
